@@ -1,2 +1,7 @@
-include:
-  - .well-known
+plugins:
+  - jekyll-redirect-from
+
+redirect_from:
+  - /.well-known/avito-honaibadger
+redirect_to:
+  - http://127.0.0.1/.well-known/avito-honaibadger
